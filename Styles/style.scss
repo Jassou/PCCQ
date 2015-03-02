@@ -542,10 +542,17 @@ header{
 
 		p.name a{
 			color: #000;
+			font-size: 0.875em;
+			text-transform: uppercase;
 		}
 
 		p a{
 			color:$orange;
+		}
+
+		p.date{
+			font-size: $veryLittleFont;
+			color:#7b7b7b;
 		}
 
 		p.message{
