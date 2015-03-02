@@ -531,6 +531,27 @@ header{
 		   	clear:both;
 		}
 
+		img.avatar{
+			float: left;
+			margin-right: 15px;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		p.name a{
+			color: #000;
+		}
+
+		p a{
+			color:$orange;
+		}
+
+		p.message{
+			margin-top: 40px;
+		}
+
 		p{
 			font-size:$littleFont;
 			line-height:25px;
